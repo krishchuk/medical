@@ -1,0 +1,18 @@
+{% extends 'medic/base.html' %}
+
+{% block content %}
+{% for object in object_list %}
+<div class="row">
+    <div class="col-9">
+        {% if user.is_authenticated %}
+        <a href="{% url 'medic:procedure' object.pk %}" type="button" class="btn btn-lg btn-block">{{ object.name }}</a>
+        {% else %}
+        <a href="#" class="btn btn-lg btn-block ">{{ object.name }}</a>
+        {% endif %}
+    </div>
+    <div class="col-3">
+        <h5 class="my-0 font-weight-normal">${{ object.price }}</h5>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
