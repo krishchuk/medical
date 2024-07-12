@@ -1,0 +1,78 @@
+{% extends 'medic/base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-4">
+        <div class="card-body">
+            <table class="table">
+                <tr>
+                    <td>Central Office</td>
+                </tr>
+                <tr>
+                    <td>Moscow City</td>
+                </tr>
+                <tr>
+                    <td>+7(495)000-00-00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card-body">
+            <table class="table">
+                <tr>
+                    <td>Opening Hours</td>
+                </tr>
+                <tr>
+                    <td>Monday: 9:00 – 19:00</td>
+                </tr>
+                <tr>
+                    <td>Tuesday: 9:00 – 19:00</td>
+                </tr>
+                <tr>
+                    <td>Wednesday: 9:00 – 19:00</td>
+                </tr>
+                <tr>
+                    <td>Thursday: 9:00 – 19:00</td>
+                </tr>
+                <tr>
+                    <td>Friday: 9:00 – 19:00</td>
+                </tr>
+                <tr>
+                    <td>Saturday: 11:00 – 16:00</td>
+                </tr>
+                <tr>
+                    <td>Sunday: CLOSED</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Свяжитесь с нами</h4>
+            </div>
+            <div class="card-body">
+                <form method="post" action="" class="form-floating">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="name">Имя</label>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone">Телефон</label>
+                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Контактный телефон" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message">Сообщение</label>
+                        <textarea type="text" name="message" class="form-control" id="message" placeholder="Введите сообщение" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-lg btn-block btn-outline-primary">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
