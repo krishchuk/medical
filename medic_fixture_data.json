@@ -1,0 +1,22 @@
+[
+{
+  "model": "medic.procedure",
+  "pk": 1,
+  "fields": {
+    "name": "Breast augmentation",
+    "description": "A medical operation related to the field of reconstructive and aesthetic surgery. It can occur both for aesthetic reasons and for medical reasons.",
+    "picture": "",
+    "price": 3000.0
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 2,
+  "fields": {
+    "name": "Breast Reduction",
+    "description": "Reduction mammoplasty (reduction of mammary glands) is an operative intervention aimed at reducing the volume of mammary glands by resection of glandular and fatty tissues and excess skin.",
+    "picture": "",
+    "price": 2500.0
+  }
+}
+]
