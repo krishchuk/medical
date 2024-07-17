@@ -1,22 +1,182 @@
 [
 {
   "model": "medic.procedure",
-  "pk": 1,
+  "pk": 3,
   "fields": {
-    "name": "Breast augmentation",
-    "description": "A medical operation related to the field of reconstructive and aesthetic surgery. It can occur both for aesthetic reasons and for medical reasons.",
+    "name": "Экспресс-тест на COVID-19 (антиген SARS-CoV-2)",
+    "description": "Исследование позволяет обнаружить антиген вируса в образце биоматериала. Диагностика является альтернативой ПЦР-тестированию и дает возможность для выявления COVID-19 у пациентов любого возраста.",
     "picture": "",
-    "price": 3000.0
+    "price": 1500
   }
 },
 {
   "model": "medic.procedure",
-  "pk": 2,
+  "pk": 4,
   "fields": {
-    "name": "Breast Reduction",
-    "description": "Reduction mammoplasty (reduction of mammary glands) is an operative intervention aimed at reducing the volume of mammary glands by resection of glandular and fatty tissues and excess skin.",
+    "name": "Мочевина",
+    "description": "Позволяет оценить выделительную функцию почек, а также помогает оценивать эффективность лечения людей с почечными заболеваниями.",
     "picture": "",
-    "price": 2500.0
+    "price": 150
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 5,
+  "fields": {
+    "name": "Билирубин общий",
+    "description": "Анализ на общий билирубин относится к базовым биохимическим исследованиям и проводится с целью оценки функции печени.",
+    "picture": "",
+    "price": 150
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 6,
+  "fields": {
+    "name": "Холестерин общий",
+    "description": "Анализ на общий холестерин особенно актуален при выявлении патологий сердечно-сосудистой системы.",
+    "picture": "",
+    "price": 150
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 7,
+  "fields": {
+    "name": "Тиреотропный гормон: ТТГ",
+    "description": "Анализ ТТГ является одним из самых важных исследований на гормоны, позволяющим выявить различные патологии щитовидной железы.",
+    "picture": "",
+    "price": 370
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 8,
+  "fields": {
+    "name": "Скорость оседания эритроцитов (СОЭ)",
+    "description": "Подсчет скорости оседания эритроцитов (СОЭ) – тест, оценивающий скорость разделения крови на эритроциты и плазму.",
+    "picture": "",
+    "price": 150
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 9,
+  "fields": {
+    "name": "Креатинин",
+    "description": "Позволяет оценить выделительную функцию почек.",
+    "picture": "",
+    "price": 150
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 10,
+  "fields": {
+    "name": "Мочевая кислота",
+    "description": "Позволяет оценить течение таких заболеваний, как подагра, различных почечных и некоторых других патологий.",
+    "picture": "",
+    "price": 150
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 11,
+  "fields": {
+    "name": "Гликированный гемоглобин",
+    "description": "Данный параметр показывает количество связанного с глюкозой гемоглобина в эритроцитах. Позволяет оценить средний уровень глюкозы в 3-месячном интервале.",
+    "picture": "",
+    "price": 450
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 12,
+  "fields": {
+    "name": "Билирубин непрямой",
+    "description": "Токсичный продукт распада эритроцитов. Диагностический маркер для определения заболеваний печени и желчевыводящих путей. Измеряется в сочетании с другими фракциями билирубина.",
+    "picture": "",
+    "price": 220
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 13,
+  "fields": {
+    "name": "Железо",
+    "description": "Микроэлемент, участвующий в переносе кислорода. Служит для оценки запаса железа в организме, диагностики железодефицитных анемий и для контроля применения препаратов железа.",
+    "picture": "",
+    "price": 150
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 14,
+  "fields": {
+    "name": "Тестостерон",
+    "description": "Исследование проводится при выявлении нарушений полового развития и патологий репродуктивной системы у мужчин, а также при контроле терапии с использованием тестостерона, для оценки гормонального статуса.",
+    "picture": "",
+    "price": 370
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 15,
+  "fields": {
+    "name": "Антитела IgG к возбудителю коклюша (Bordetella pertussis)",
+    "description": "",
+    "picture": "",
+    "price": 950
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 16,
+  "fields": {
+    "name": "Антитела IgM к возбудителю коклюша (Bordetella pertussis)",
+    "description": "",
+    "picture": "",
+    "price": 950
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 17,
+  "fields": {
+    "name": "Антитела IgG к пневмоцисте (Pneumocystis carinii)",
+    "description": "",
+    "picture": "",
+    "price": 630
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 18,
+  "fields": {
+    "name": "Антитела IgM к пневмоцисте",
+    "description": "",
+    "picture": "",
+    "price": 630
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 19,
+  "fields": {
+    "name": "Определение антигена Legionella pneumophila в моче",
+    "description": "",
+    "picture": "",
+    "price": 3460
+  }
+},
+{
+  "model": "medic.procedure",
+  "pk": 20,
+  "fields": {
+    "name": "Смесь аллергенов орехов (арахис, фундук, американский орех, миндаль, кокос) (IgE)",
+    "description": "",
+    "picture": "",
+    "price": 1200
   }
 }
 ]
