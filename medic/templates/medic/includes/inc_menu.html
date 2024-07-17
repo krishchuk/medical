@@ -12,15 +12,6 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{% url 'medic:home' %}">Home</a>
                 </li>
-                {% if user.is_authenticated %}
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">News</a>
-                </li>
-                {% else %}
-                <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">News</a>
-                </li>
-                {% endif %}
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{% url 'medic:procedure_list' %}">Procedures</a>
                 </li>
