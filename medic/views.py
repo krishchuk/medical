@@ -10,8 +10,8 @@ from medic.models import Procedure
 class HomeView(TemplateView):
     template_name = 'medic/home.html'
     extra_context = {
-            'title': 'MEDIC - Медицинская диагностика'
-        }
+        'title': 'MEDIC - Медицинская диагностика'
+    }
 
 
 class ProcedureListView(ListView):
