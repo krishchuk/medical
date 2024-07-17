@@ -23,7 +23,7 @@ class ProfileChangeForm(StyleFormMixin, UserChangeForm):
 
     class Meta:
         model = User
-        fields = ('email', 'first_name', 'last_name')
+        fields = ('email', 'first_name', 'last_name', 'phone', 'city', 'avatar')
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
